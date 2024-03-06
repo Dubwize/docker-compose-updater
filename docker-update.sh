@@ -9,9 +9,9 @@ LOGARCHIVE=/docker-data/docker-logarchive/
 FILE=update.log
 
 #No users servicable code below
-YELLOW="\e[33m"
-GREEN="\e[32m"
-ENDCOLOR="\e[0m"
+YELLOW="\033[0;33m"
+GREEN="\033[0;32m"
+ENDCOLOR="\033[0m"
 DATE=$(date +"%m-%d-%Y")
 
 #Change working folder
